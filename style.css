@@ -1,0 +1,44 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: blueviolet;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    border: 10px solid rgb(43, 114, 43);
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    width: 60%;
+    height: 65%;
+}
+
+.container p,.container h3{
+    font-size: 1.5rem;
+    color: rgb(100, 100, 100);
+}
+
+@media (max-width: 480px) {
+    .container{
+        border: 5px solid rgb(88, 5, 5);
+        border-radius: 5px;
+        width: 80%;
+        height: 80%;
+    }
+
+    .container p,.container h3{
+        font-size: 1rem;
+    }
+}
